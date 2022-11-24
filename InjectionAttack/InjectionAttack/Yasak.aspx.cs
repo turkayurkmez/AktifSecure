@@ -5,6 +5,13 @@ public partial class _Default : Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["user"] == null)
+        {
+            LabelResult.Text = "Bu sayfaya erişemezsiniz!";
+
+        }
+
+        AntiForgeryToken.Check(this, HiddenField1);
 
     }
 

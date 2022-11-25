@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2anirJk096oxTnHCiMRjMi3615aGFZHTmGNnf5V3HhY=",
+  "Source": "BearerAuthAPI",
+  "BasePath": "_content/BearerAuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
